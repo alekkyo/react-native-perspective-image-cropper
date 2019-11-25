@@ -31,7 +31,8 @@ repositories {
 }
 
 dependencies {
-    implementation project(':openCVLibrary310')
+    implementation project(':react-native-opencv3')
+    implementation 'com.quickbirdstudios:opencv:3.4.4-contrib'
     compile 'com.facebook.react:react-native:+'
 }
   
